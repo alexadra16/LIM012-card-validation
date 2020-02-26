@@ -1,3 +1,4 @@
 {
   "plugins": ["@babel/plugin-transform-modules-commonjs"]
+  // traduce a otros tipos de navegadores
 }
