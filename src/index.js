@@ -4,15 +4,18 @@ import validator from './validator.js';
 // validator.maskify
 const validat1= document.getElementById("validarNumTarj");
 const validat0= document.getElementById("num");
-
+const end=document.getElementById("result");
     // console.log(typeof validat1);
     // console.log(validat1);
+ //console.log(end);
 
     validat1.addEventListener("click", ()=>{
         document.querySelector("#resul").style.backgraoundColor = "gray";
-        let validadorfinal= document.getElementById("resul");
-        validadorfinal.innerHTML = validator.isValid(validat0.value)
+        let validadorFinal= document.getElementById("resul");
+        validadorFinal.innerHTML = validator.isValid(validat0.value)
+        validadorFinal.innerHTML = validator.isValid(validadorFinal.value)
         validat0.value = validator.maskify(validat0.value)
+        
     })
     // console.log(validat1)
 

@@ -28,9 +28,9 @@ const validator = {
     // console.log(sumPosicionImpar);
     const sumTotal=sumPosicionImpar + sumPosicionPar
     if(sumTotal%10 == 0){
-      valor = true;
+      valor = "Estimado cliente  el numero de su tarjeta es valida. Procede con el pago de tu pedido haciendo click en continuar.";
     } else {
-      valor = false;
+      valor = "Estimado cliente el numero de su tarjeta es invalida.Por favor, introduzca otro numero de   tarjeta";
     }
     return valor;
  },
