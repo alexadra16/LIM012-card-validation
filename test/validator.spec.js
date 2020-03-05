@@ -12,15 +12,15 @@ describe('validator', () => {
     });
 
     it('debería retornar true para "4083952015263"', () => {
-      expect(validator.isValid('4083952015263')).toBe(true);
+      expect(validator.isValid("4083952015263")).toBe("Estimado cliente  el numero de su tarjeta es valida. Procede con el pago de tu pedido.");
     });
 
     it('debería retornar true para "79927398713"', () => {
-      expect(validator.isValid('79927398713')).toBe(true);
+      expect(validator.isValid("79927398713")).toBe("Estimado cliente  el numero de su tarjeta es valida. Procede con el pago de tu pedido.");
     });
 
     it('debería retornar false para "1234567890"', () => {
-      expect(validator.isValid('1234567890')).toBe(false);
+      expect(validator.isValid("1234567890")).toBe("Estimado cliente el numero de su tarjeta es invalida.Por favor, introduzca otro numero de   tarjeta.");
     });
   });
 
