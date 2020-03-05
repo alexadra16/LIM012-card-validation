@@ -30,7 +30,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 ### HTML y CSS
 
 * [ ] [Uso correcto de HTML semántico](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-* [] [Uso de selectores de CSS](https://developer.mozilla.org/es/docs/Web/CSS/Selectores_CSS)
+* [ ] [Uso de selectores de CSS](https://developer.mozilla.org/es/docs/Web/CSS/Selectores_CSS)
 * [😀] [Construir tu aplicación respetando el diseño realizado](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/css/01-css/02-boxmodel-and-display) (maquetación).
 
 ### DOM
@@ -60,9 +60,9 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 
 ### Buenas prácticas de desarrollo
 
-* [ ] Organizar y dividir el código en módulos (Modularización).
+* [😀] Organizar y dividir el código en módulos (Modularización).
 * [ ] Uso de identificadores descriptivos (Nomenclatura| Semántica).
-* [ ] Uso de linter para seguir buenas prácticas (ESLINT).
+* [😀] Uso de linter para seguir buenas prácticas (ESLINT).
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
 
@@ -124,7 +124,7 @@ Investigación UX:
   
   🔥En la manipulación dinamica del DOM no solo manejar innerHTML
 
-  
+
 * Imagen del prototipo final.
 
   Protipo de alta fidelidad 
